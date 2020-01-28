@@ -1,0 +1,602 @@
+/****************** Common CSS Start ******************/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.green_btn {
+    background: #6fb048;
+    color: white;
+    padding: 11px 54px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #6fb048;
+    transition: all .4s;
+}
+.green_btn:hover {
+    background: transparent;
+    color: #fff;
+}
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.top_phn {
+    margin-left: 12px;
+    border: 0px solid #506b6c;
+    border-left-width: 1px;
+    padding-left: 31px;
+    margin-top: 3px;
+    }
+    
+    .top_phn i {
+    color: white;
+    opacity: .7;
+    font-size: 16px;
+    margin-right: 15px;
+    }
+    
+    .top_phn a {
+    color: white;
+    font-family: montserrace;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+section {
+    padding: 80px 0px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h2 {
+    color: #0f5f5c;
+    font-size: 32px;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.title h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #6fb048;
+    margin: 0 auto;
+    width: 65px;
+    height: 1px;
+    margin-bottom: -15px;
+}
+
+.title p {
+    color: #83a7a5;
+    font-size: 15px;
+    padding: 0 30%;
+}
+/****************** Common CSS End ******************/
+
+/****************** Header CSS Start ****************/
+header {
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    padding: 30px 0px;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.50), transparent);
+} 
+.navbar {
+    border: 0px solid #507171;
+    border-bottom-width: 1px;
+    padding-bottom: 35px;
+
+}
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255, 255, 255, .7);
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.active .nav-link {
+    color: rgba(255, 255, 255, 1);
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.cta_btn {
+    background: rgba(255, 255, 255, .5);
+    padding: 10px 60px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 3px;
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+}
+
+.cta_btn:hover {
+    background: #6fb048;
+} 
+/**************** Header CSS End ****************/
+
+
+/*************** Banner CSS Start ***************/
+#banner {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+#banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2d6e70;
+    opacity: .9;
+}
+
+#banner h1 {
+    color: #ffffff;
+}
+
+#banner p {
+    color: #ffffff;
+    width: 46%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+/***************** Banner CSS End **************/
+
+/************** Feauters CSS Start **************/
+#feature .items {
+    margin-top: 60px;
+}
+
+#feature .items img {
+    height: 60px;
+}
+
+#feature .items h4 {
+    color: #0f5f5c;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 30px 0px 20px; 
+}
+
+#feature .items p {
+    font-size: 14px;
+    color: #83a7a5;
+}
+
+.shape {
+    position: relative;
+    height: 90px;
+    margin-top: 25px;
+}
+.shape::before {
+    content: '';
+    position: absolute;
+    background: #f2f2f2;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 2px;
+    height: 90px;
+}
+
+.shape::after {
+    content: '';
+    position: absolute;
+    background: #f2f2f2;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 90px;
+    height: 2px;
+}
+
+#feature .item-2 {
+    margin-top: 50px;
+}
+
+#feature .item-2 p {
+    color: #83a7a5;
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+#feature .item-2 .media img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+#feature .item-2 .media-body {
+    margin-left: 25px;
+    margin-top: 6px;
+}
+
+#feature .item-2 .media-body h4 {
+    color: #0f5f5c;
+    font-size: 16px;
+    font-weight: 700;
+}
+/***************** Features CSS End *****************/
+
+/**************** Tempale CSS Start ****************/
+#template {
+    margin-top: 20px;
+    position: relative;
+}
+#template::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background: #eef1ec;
+}
+#template .mobile {
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+#template .item-3 {
+    margin-top: 115px;
+    margin-left: 65px;
+
+}
+#template .item-3 h2 {
+    color: #0f5f5c;
+    font-size: 32px;
+    font-weight: 300;
+}
+#template .item-3 p {
+    color: #83a7a5;
+    font-size: 14px;
+    padding-right: 14%;
+}
+#template .item-3 .media img {
+    width: 15px;
+    height: 15px;
+    margin-top: 3px;
+}
+#template .item-3 .media-body p {
+    margin-left: 8px;
+}
+/************* Template CSS End *************/
+
+/************* Profile CSS Start *************/
+#profile .item-4 {
+    margin-top: 90px;
+}
+#profile .item-4 p {
+    color: #83a7a5;
+    font-size: 22px
+}
+#profile .item-4 h4 {
+    color: #6fb048;
+    font-size: 14px;
+}
+#profile .item-4 h5 {
+    color: #83a7a5;
+    font-size: 14px;
+}
+#profile .pro_pic {
+    margin-top: 30px;
+    margin-left: 115px;
+}
+#profile .pro_pic img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+/************* Profile CSS End *************/
+
+/*********** Attention CSS Start ***********/
+#attention {
+    position: relative;
+    height: 80vh;
+}
+#attention::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    background: #eef1ec;
+}
+#attention .item-5 {
+    margin: 150px 0px
+}
+#attention .item-5 h2 {
+    color: #0f5f5c;
+    font-size: 32px;
+    font-weight: 400;
+}
+#attention .item-5 p {
+    color: #83a7a5;
+    font-size: 14px;
+    text-align: justify;
+    padding-right: 39px;
+}
+#attention .map {
+    margin: 45px 0px;
+}
+#attention .map img {
+    width: 100%;
+    height: 100%;
+}
+/************** Attention CSS End **************/
+
+/************** Pricing CSS Start **************/
+#pricing .title p {
+    padding: 0px 280px;
+}
+#pricing .plan {
+    text-align: center;
+    border: 2px solid #c1d3d2;
+    border-radius: 2px;
+    margin: 0px;
+    margin-left: -32px;
+    padding-top: 6px;
+    padding-bottom: 38px;
+    margin-bottom:  15px;
+    margin-top: 20px;
+}
+#pricing .plan h4 {
+    color: #6fb048;
+    font-size: 15px;
+    padding-top: 22px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#pricing .plan h1 {
+    color: #0f5f5c;
+    font-size: 65px;
+    font-weight: 700;
+}
+#pricing .plan h6 {
+    color: #0f5f5c;
+    font-size: 14px;
+    margin-top: -17px;
+    padding-top: 0px;
+    font-weight: 700;
+}
+#pricing .plan p {
+    color: #83a7a5;
+    font-size: 14px;
+    padding: 12px 78px;
+}
+#pricing .plan .green_btn{
+    padding: 10px 22px;
+    font-size: 13px;
+    background: #83a7a5;
+}
+#pricing .plan .d-btn {
+    background: #6fb048;
+} 
+#pricing .plan .green_btn:hover {
+    background: transparent;
+    color: green;
+}
+#pricing .title h2 {
+    color: #0f5f5c;
+    font-size: 22px;
+    font-weight: 400;
+}
+#pricing .plan-item{
+    margin-top: 15px;
+}
+#pricing .plan-item .media img {
+    width: 20px;
+    height: 20px;
+    margin-top: 1px;;
+}
+#pricing .plan-item .media-body p {
+    margin-left: 8px;
+    color: #83a7a5;
+}
+#pricing .help {
+    margin-top: 30px;
+}
+#pricing .help img {
+    width: 32px;
+    height: 32px;
+}
+#pricing .help h2 {
+    color: #6fb048;
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 8px;
+}
+#pricing .help h4 {
+    color: #0f5f5c;
+    font-size: 18px;
+    padding: 10px 0px;
+}
+/************** Pricing CSS End **************/
+
+/************* Dowload CSS Start *************/
+#download {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#download .download-item {
+    margin-right: --119px;
+}
+#download .download-item h2 {
+    color: #0f5f5c;
+    font-size: 28px;
+    font-weight: 400;
+    padding-left: 0px;
+    margin-top: -12px;
+}
+#download .download-item p {
+    color: #83a7a5;
+    font-size: 14px;
+    padding-left: 0px;
+    margin-top: -8px;
+}
+#download .download-item .green_btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 235px;
+
+}
+#download .download-item .green_btn:hover {
+    background: transparent;
+    color: #6fb048;
+}
+/************* Download CSS End *************/
+
+/************ Dowload CSS Start */
+#download {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#download .download-item {
+    margin-right: --119px;
+}
+#download .download-item h2 {
+    color: #0f5f5c;
+    font-size: 28px;
+    font-weight: 400;
+    padding-left: 0px;
+    margin-top: -12px;
+}
+#download .download-item p {
+    color: #83a7a5;
+    font-size: 14px;
+    padding-left: 0px;
+    margin-top: -8px;
+}
+#download .download-item .green_btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 235px;
+
+}
+#download .download-item .green_btn:hover {
+    background: transparent;
+    color: #6fb048;
+}
+/************ Download CSS End ************/
+
+
+/************ Contact CSS Start ************/
+#address .address_item h4 {
+    color: #0f5f5c;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+#address .address_item h6 {
+    color: #0f5f5c;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#address .address_item .gmail{
+    margin-bottom: 0px;
+}
+#address .address_item h6 a {
+    color: #0f5f5c;
+}
+#address .address_item a {
+    color: #83a7a5;
+    text-decoration: none;
+}
+#address .address_item p {
+    color: #83a7a5;
+    font-size: 13px;
+    margin: 10px 0px;
+}
+#address .address_item .add_bottom {
+    padding-left: 15px;
+    margin-top: -10px;
+}
+/************ Contact CSS End ************/
+
+/*********** Footer CSS Start ***********/
+footer {
+    margin-bottom: 25px;
+}
+footer .footer_text p {
+    display: inline;
+    color: #83a7a5;
+    font-size: 14px;
+}
+footer .footer_text {
+    border: 0px solid #eef1ec;
+    border-top-width: 1px;
+    padding-top: 30px;
+}
+.footer_text {
+    float: left;
+}
+footer .icon {
+    display: inline;
+    margin-left: 771px;
+    float: right;
+}
+.icon ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.icon ul li {
+    display: inline-block;
+}
+.icon ul li a {
+    text-decoration: none;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    transition: 1s;
+    margin-right: 10px;
+}
+.icon ul li a:hover {
+    transform: rotate(360deg) scale(1.2);
+    color: #34495e;
+    background: #fff;
+}
+/*********** Footer CSS END ***********/
